@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Professional web design and development services. Creating beautiful digital experiences with modern design and cutting-edge technology.">
+    <meta name="keywords" content="web design, web development, UI/UX design, digital marketing, responsive design">
+    <meta name="author" content="DesignStudio">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DesignStudio - Modern Design & Development">
+    <meta property="og:description" content="Creating beautiful digital experiences with professional web design and development services.">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DesignStudio - Modern Design & Development">
+    <meta name="twitter:description" content="Creating beautiful digital experiences with professional web design and development services.">
+    
+    <title>DesignStudio - Professional Web Design & Development | Modern Digital Experiences</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Accessibility Styles -->
+    <style>
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DesignStudio",
+        "description": "Professional web design and development services creating beautiful digital experiences",
+        "url": "https://www.designstudio.com",
+        "logo": "https://www.designstudio.com/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+251-978-629-718",
+            "contactType": "Customer Service",
+            "email": "gyhennery89@gmail.com",
+            "areaServed": "ET",
+            "availableLanguage": ["en"]
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mekelle",
+            "addressRegion": "Tigray",
+            "addressCountry": "ET"
+        },
+        "sameAs": [
+            "https://www.facebook.com/gy.hennery",
+            "https://t.me/Gy24_89"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home" class="logo-link" aria-label="DesignStudio Home">
+                        <span class="logo-text">DesignStudio</span>
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Creating Beautiful</span>
+                    <span class="title-line">Digital Experiences</span>
+                </h1>
+                <p class="hero-subtitle">We design and develop modern websites that captivate your audience and drive results.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-label="Scroll down">
+            <div class="mouse">
+                <svg width="24" height="40" viewBox="0 0 24 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="8" y="8" width="8" height="16" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <circle cx="12" cy="14" r="1.5" fill="currentColor"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">We Craft Digital Excellence</h2>
+                <p class="section-description">With years of experience in design and development, we bring your vision to life.</p>
+            </div>
+            <div class="about-grid">
+                <article class="about-card">
+                    <div class="card-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Creative Design</h3>
+                    <p>We create visually stunning designs that reflect your brand identity and engage your audience.</p>
+                </article>
+                <article class="about-card">
+                    <div class="card-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 21H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12 17V21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Modern Development</h3>
+                    <p>Built with the latest technologies, ensuring fast, responsive, and scalable solutions.</p>
+                </article>
+                <article class="about-card">
+                    <div class="card-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Performance Focused</h3>
+                    <p>Optimized for speed and performance, delivering exceptional user experiences across all devices.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">What We Offer</h2>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-number" aria-hidden="true">01</div>
+                    <h3>Web Design</h3>
+                    <p>Custom website designs tailored to your brand and business goals.</p>
+                    <ul class="service-features">
+                        <li>UI/UX Design</li>
+                        <li>Responsive Layouts</li>
+                        <li>Brand Identity</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <div class="service-number" aria-hidden="true">02</div>
+                    <h3>Web Development</h3>
+                    <p>Full-stack development services using modern frameworks and technologies.</p>
+                    <ul class="service-features">
+                        <li>Frontend Development</li>
+                        <li>Backend Systems</li>
+                        <li>API Integration</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <div class="service-number" aria-hidden="true">03</div>
+                    <h3>Digital Strategy</h3>
+                    <p>Strategic planning to help you achieve your digital marketing objectives.</p>
+                    <ul class="service-features">
+                        <li>SEO Optimization</li>
+                        <li>Content Strategy</li>
+                        <li>Analytics & Insights</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Our Recent Work</h2>
+            </div>
+            <div class="portfolio-grid">
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>E-Commerce Platform</h4>
+                            <p>Modern shopping experience</p>
+                            <a href="#" class="portfolio-link" aria-label="View E-Commerce Platform project">
+                                View Project
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Corporate Website</h4>
+                            <p>Professional business presence</p>
+                            <a href="#" class="portfolio-link" aria-label="View Corporate Website project">
+                                View Project
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Mobile App Design</h4>
+                            <p>iOS & Android interface</p>
+                            <a href="#" class="portfolio-link" aria-label="View Mobile App Design project">
+                                View Project
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Brand Identity</h4>
+                            <p>Complete visual system</p>
+                            <a href="#" class="portfolio-link" aria-label="View Brand Identity project">
+                                View Project
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="contact-description">Have a project in mind? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="L22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:gyhennery89@gmail.com" class="contact-link">gyhennery89@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92V19.92C22 20.52 21.52 21 20.92 21C9.4 21 0 11.6 0 0.08C0 -0.52 0.48 -1 1.08 -1H4.08C4.68 -1 5.16 -0.52 5.16 0.08C5.16 1.08 5.28 2.04 5.52 2.96C5.64 3.44 5.44 3.96 5.04 4.28L3.28 6.04C4.84 9.08 7.92 12.16 10.96 13.72L12.72 11.96C13.04 11.56 13.56 11.36 14.04 11.48C14.96 11.72 15.92 11.84 16.92 11.84C17.52 11.84 18 12.32 18 12.92V15.92C18 16.52 17.52 17 16.92 17H15.84" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+251978629718" class="contact-link">+251 978 629 718</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mekelle University, Creative City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name" aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email" aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="sr-only">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M1.33334 14.6667L14.6667 1.33334M14.6667 1.33334H5.33334M14.6667 1.33334V10.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DesignStudio</h3>
+                    <p>Creating beautiful digital experiences since 2026.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.facebook.com/gy.hennery" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/Gy24_89" target="_blank" rel="noopener noreferrer" aria-label="Visit our Telegram channel">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M21 5L2 12.5L9 14L21 5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21 5L14 21L9 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Telegram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Visit our Instagram page" aria-disabled="true">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+                                </svg>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/251978629718" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M17.472 14.382C17.267 14.134 15.045 12.805 14.523 12.583C14.001 12.36 13.613 12.25 13.224 12.456C12.835 12.661 11.834 13.229 11.582 13.435C11.33 13.641 11.078 13.694 10.764 13.489C10.45 13.284 9.224 12.754 7.754 11.412C6.582 10.367 5.852 9.13 5.6 8.815C5.348 8.5 5.502 8.29 5.707 8.084C5.891 7.9 6.096 7.626 6.302 7.417C6.507 7.208 6.614 7.069 6.819 6.815C7.025 6.56 7.078 6.349 7.182 6.084C7.287 5.818 7.235 5.577 7.13 5.365C7.025 5.152 6.071 3.241 5.754 2.557C5.438 1.874 5.121 1.99 4.888 1.979C4.656 1.968 4.392 1.968 4.128 1.968C3.864 1.968 3.519 2.048 3.227 2.363C2.936 2.678 2.183 3.38 2.183 4.844C2.183 6.308 3.311 7.718 3.468 7.911C3.625 8.103 5.544 10.856 8.62 11.846C9.521 12.144 10.213 12.323 10.764 12.456C11.556 12.66 12.254 12.615 12.835 12.509C13.48 12.389 15.535 11.358 15.95 11.253C16.365 11.149 16.675 11.097 16.777 11.234C16.88 11.371 16.88 11.917 16.675 12.509Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DesignStudio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
